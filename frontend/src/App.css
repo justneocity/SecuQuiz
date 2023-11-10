@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background: white;
+  min-height: 100vh;
+  color: black;
+}
+
+.loginBox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+

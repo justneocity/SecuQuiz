@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&family=Press+Start+2P&display=swap');
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90.04deg, #800080 0.03%, #ffc0cb 99.96%);
+    height: 8vh;
+    position: relative;
+  }
+  
+.nav-left .title {
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+.nav-left .dashboard {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1 Code';
+  }
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    font-family: 'M PLUS 1 Code';
+  }
+  
+.nav-right a,
+.nav-right button {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+.nav-right a:last-child,
+.nav-right button:last-child {
+    margin-right: 0;
+  }

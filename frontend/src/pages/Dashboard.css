@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&family=Palanquin:wght@200;300;400&family=Press+Start+2P&display=swap');
+
+.cards{
+   background-color: blue; 
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+body {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-weight: 400;
+    /* background: linear-gradient(90.04deg, #a1f2df 0.03%, #82bef1 99.96%); */
+    color: #11052c;
+    margin: 0;
+    height: 100vh;
+}
+
+.questionContainer {
+    margin: 10px 0px 10px 0px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tagContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filtersContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+}
+
+.searchBox {
+    margin: 10px 0px 10px 0px;
+
+}
+.button-hover-effect {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.button-hover-effect:hover {
+    background-color: lightblue;
+}
+
+.startGameContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+    margin-right: 20px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1001;
+}
+  
+.body-modal-open {
+    overflow: hidden;
+}

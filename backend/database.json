@@ -1,0 +1,229 @@
+{
+  "users": [
+    {
+      "email": "rifajamal2@gmail.com",
+      "name": "Rifa Jamal",
+      "password": "rifa",
+      "createdQuestions": [
+        10
+      ]
+    }
+  ],
+  "tags": [
+    "general",
+    "easy",
+    "medium",
+    "hard",
+    "security",
+    "cryptography",
+    "psychology",
+    "data"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following statements best represents the correlation between risk and outcome as discussed in the lecture on Risk and Trust?",
+      "questionType": "text",
+      "tags": [
+        "general"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "Risk and outcome are synonymous and directly proportional.",
+        "Risk is about exposure to the chance of an outcome, and it is usually invisible. The actual outcome is down to luck and is beyond control.",
+        "Outcome is entirely within our control, while risk is not.",
+        "Both risk and outcome are visible and can be controlled through adequate preparation."
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "In the lecture, it was discussed that risk involves exposure to the chance of a particular outcome which is not visible, whereas the actual outcome can be due to various factors, often including luck, and is beyond complete control.",
+      "point": "20"
+    },
+    {
+      "id": 2,
+      "question": "In the context of Type I and Type II errors, what impact does adjusting the system to reduce one type of error have on the other?",
+      "questionType": "text",
+      "tags": [
+        "general",
+        "easy"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "Reducing Type I errors will also reduce Type II errors.",
+        "Reducing Type I errors has no impact on Type II errors.",
+        "Reducing Type I errors will increase the likelihood of Type II errors.",
+        "There is no correlation between Type I and Type II errors."
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "Adjusting the system to reduce Type I errors, which are false positives, will often increase the chances of Type II errors, which are false negatives, as there is a trade-off between the two types of errors.",
+      "point": "20"
+    },
+    {
+      "id": 3,
+      "question": "In the context of information security, what is the potential issue when a hacker gains access to a file with hashed passwords?",
+      "questionType": "text",
+      "tags": [
+        "security",
+        "medium"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "The hacker can immediately read all the passwords.",
+        "The hacker can match known passwords to their respective hashes.",
+        "The hacker can instantly reset all user accounts.",
+        "The hacker can enhance the encryption of the hashed passwords."
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "If a hacker gains access to a file with hashed passwords, they might not be able to read the passwords directly but can potentially match the hashes with known passwords, especially if the hashing algorithm is weak or if they can use a rainbow table.",
+      "point": "20"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following cognitive biases refers to the tendency for people to overemphasize personal characteristics and ignore situational factors in judging others' behavior?",
+      "questionType": "text",
+      "tags": [
+        "psychology"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "Confirmation Bias",
+        "Anchoring Bias",
+        "Self-serving Bias",
+        "Fundamental Attribution Error"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "The Fundamental Attribution Error is a cognitive bias where there is a tendency to place an undue emphasis on internal characteristics to explain someone else's behavior in a given situation, rather than considering the external factors influencing the behavior.",
+      "point": "20"
+    },
+    {
+      "id": 5,
+      "question": "In encryption, why is it essential to convert base64 encoded ciphertext back to raw binary before decryption?",
+      "questionType": "text",
+      "tags": [
+        "cryptography",
+        "hard"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "Because base64 encoding enhances the color of the ciphertext.",
+        "Because raw binary format makes the ciphertext look more complex.",
+        "Because decryption algorithms typically operate on raw binary data and not base64 encoded strings.",
+        "Because base64 encoding is a newer method and not universally supported."
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "Decryption algorithms require the data to be in raw binary format because that's the format they operate on. Base64 is just an encoding to represent binary data in an ASCII string format and is not the actual format needed for decryption processes.",
+      "point": "20"
+    },
+    {
+      "id": 6,
+      "question": "In security protocols, why is replicability considered crucial?",
+      "questionType": "text",
+      "tags": [
+        "security"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "It allows for multiple parties to claim credit for the discovery.",
+        "It ensures that the method or protocol is reliable and not just a one-time occurrence.",
+        "It makes the encryption process faster.",
+        "It increases the complexity of the protocol."
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "Replicability in security protocols means that the protocol can be repeated under the same conditions and yield the same results, thus proving the reliability and consistency of the protocol.",
+      "point": "20"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following describes a dictionary attack?",
+      "questionType": "text",
+      "tags": [
+        "security"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "Attempting to decrypt a password by trying every possible combination of characters.",
+        "Breaking a password by trying common words and combinations sourced from dictionaries.",
+        "Intercepting data between two parties to obtain sensitive information.",
+        "Creating a fake website to trick users into providing sensitive information."
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "A dictionary attack involves trying to guess a password by using commonly used passwords or phrases, which are often compiled in a list or 'dictionary' used by the attacker.",
+      "point": "20"
+    },
+    {
+      "id": 8,
+      "question": "When trying to determine the original password from an MD5 hash, what is a common technique used?",
+      "questionType": "text",
+      "tags": [
+        "security",
+        "cryptography"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "Brute-forcing by attempting all possible passwords.",
+        "Looking up the hash in pre-computed tables of known hashes.",
+        "Running the hash through a quantum computer.",
+        "Sending the hash via email to request the original password."
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "Pre-computed tables, or rainbow tables, are often used to find out what password corresponds to a specific hash, such as MD5. These tables contain a large number of potential passwords and their hashed equivalents.",
+      "point": "20"
+    },
+    {
+      "id": 9,
+      "question": "What is a challenge with data governance?",
+      "questionType": "text",
+      "tags": [
+        "data"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "Data can't be shared.",
+        "Data can be used differently than promised.",
+        "PII is the only way to track people.",
+        "Data governance stays the same forever."
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "A challenge with data governance is ensuring that data is used in the way that it was promised to be used, particularly when it comes to privacy and ethical considerations.",
+      "point": "20"
+    },
+    {
+      "question": "This is a test security question",
+      "questionType": "text",
+      "tags": [
+        "psychology",
+        "data"
+      ],
+      "answerSelectionType": "single",
+      "answers": [
+        "test1",
+        "test2",
+        "test3",
+        "test4"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "adsadsf",
+      "messageForIncorrectAnswer": "adf",
+      "explanation": "sdfsdf",
+      "point": "6",
+      "id": 10
+    }
+  ]
+}
